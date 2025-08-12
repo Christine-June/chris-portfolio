@@ -12,10 +12,13 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-mimi-pink/80 backdrop-blur-md shadow-md z-50">
+    <nav className="fixed top-0 left-0 w-full bg-mimi-pink/80 backdrop-blur-md shadow-none z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <a href="#home" className="text-xl font-bold text-periwinkle hover:text-mauve transition">
+        <a
+          href="#home"
+          className="text-xl font-bold text-periwinkle hover:text-mauve transition-colors duration-300"
+        >
           Chris<span className="text-mauve-2">Portfolio</span>
         </a>
 
@@ -25,7 +28,7 @@ export default function Navbar() {
             <a
               key={link.name}
               href={link.href}
-              className="text-periwinkle hover:text-mauve-2 transition font-medium"
+              className="text-periwinkle hover:text-mauve-2 transition-colors duration-300 font-medium"
             >
               {link.name}
             </a>
@@ -36,6 +39,7 @@ export default function Navbar() {
         <button
           className="md:hidden text-periwinkle focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
         >
           ☰
         </button>
