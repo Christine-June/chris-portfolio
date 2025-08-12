@@ -21,7 +21,7 @@ export default function Hero() {
         transition={{ duration: 0.8 }}
         className="text-6xl font-extrabold text-mauve mb-4 leading-tight"
       >
-        Hey, I’m Chris —<br /> A Software Developer & Social Media Manager
+        Hey, I’m Christine —<br /> A Software Developer & Social Media Manager
       </motion.h1>
 
       {/* Your original subtext */}

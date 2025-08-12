@@ -4,21 +4,21 @@ const projects = [
     description: "A sleek, responsive portfolio built with React, Tailwind, and Framer Motion.",
     image: "/images/project1.jpg",
     tags: ["React", "Tailwind", "Framer Motion"],
-    link: "https://yourprojectlink.com"
+    link: "https://github.com/Christine-June/chris-portfolio"
   },
   {
-    title: "Social Media Campaign Dashboard",
-    description: "Analytics and management tool for multiple social media platforms.",
+    title: "Recruit Connect",
+    description: "A modern and intuitive platform for connecting talented professionals with their dream jobs.",
     image: "/images/project2.jpg",
     tags: ["Python", "Flask", "API Integration"],
-    link: "https://yourprojectlink.com"
+    link: "https://recruit-connect-frontend.vercel.app/"
   },
   {
-    title: "E-commerce Storefront",
-    description: "Modern online shop with secure checkout and admin dashboard.",
+    title: "Cool Buttons",
+    description: "A fun project showcasing creative button designs using vanilla JavaScript, HTML, and CSS.",
     image: "/images/project3.jpg",
-    tags: ["React", "Node.js", "Stripe API"],
-    link: "https://yourprojectlink.com"
+    tags: ["Vanilla JS", "HTML", "CSS"],
+    link: "https://cool-buttons-6pnp.vercel.app/"
   }
 ];
 

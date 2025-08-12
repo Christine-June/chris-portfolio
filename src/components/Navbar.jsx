@@ -19,7 +19,7 @@ export default function Navbar() {
           href="#home"
           className="text-xl font-bold text-periwinkle hover:text-mauve transition-colors duration-300"
         >
-          Chris<span className="text-mauve-2">Portfolio</span>
+          Christine's <span className="text-mauve-2">Portfolio</span>
         </a>
 
         {/* Desktop Menu */}
